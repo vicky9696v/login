@@ -1,0 +1,36 @@
+.home-main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+  background-color: #152850;
+}
+
+.nav-container {
+  height: 10vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  padding: 5px;
+  padding-left: 10%;
+  padding-right: 8%;
+}
+
+.home-button {
+  height: 35px;
+  width: 100px;
+  border: 1px solid #ffffffff;
+  background-color: transparent;
+  color: #ffffffff;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  justify-self: center;
+  align-items: center;
+  color: #ffffffff;
+  margin-top: 5%;
+}
