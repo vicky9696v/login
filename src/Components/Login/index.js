@@ -5,18 +5,18 @@ import './index.css'
 
 class Login extends Component {
   state = {
-    username: '',
-    password: '',
+    user_id: '',
+    pin: '',
     showError: false,
     error: '',
   }
 
   onUserName = e => {
-    this.setState({username: e.target.value})
+    this.setState({user_id: e.target.value})
   }
 
   onPassword = e => {
-    this.setState({password: e.target.value})
+    this.setState({pin: e.target.value})
   }
 
   onSubmitSuccess = jwtToken => {
@@ -32,9 +32,11 @@ class Login extends Component {
 
   onSubmitForm = async e => {
     e.preventDefault()
-    const {username, password} = this.state
-    const userData = {username, password}
-    const url = 'https://apis.ccbp.in/ebank/login'
+    // eslint-disable-next-line camelcase
+    const {user_id, pin} = this.state
+    const userData = {user_id, pin}
+    const url = `https://apis.ccbp.in/ebank/login`
+
     const options = {
       method: 'POST',
       body: JSON.stringify(userData),
@@ -42,6 +44,7 @@ class Login extends Component {
 
     const response = await fetch(url, options)
     const data = await response.json()
+    console.log(data)
     if (response.ok) {
       this.onSubmitSuccess(data.jwt_token)
     } else {
@@ -50,7 +53,8 @@ class Login extends Component {
   }
 
   render() {
-    const {showError, error} = this.state
+    // eslint-disable-next-line camelcase
+    const {showError, error, user_id, pin} = this.state
     const jwtToken = Cookies.get('jwt_token')
     if (jwtToken !== undefined) {
       return <Redirect to="/" />
@@ -72,6 +76,8 @@ class Login extends Component {
             <input
               type="text"
               id="user-name"
+              // eslint-disable-next-line camelcase
+              value={user_id}
               placeholder="Enter User ID"
               className="input-class"
               onChange={this.onUserName}
@@ -82,6 +88,7 @@ class Login extends Component {
             <input
               type="password"
               id="password"
+              value={pin}
               placeholder="Enter PIN"
               className="input-class"
               onChange={this.onPassword}
@@ -98,42 +105,3 @@ class Login extends Component {
 }
 
 export default Login
-
-//     return (
-//       <div className="login-container">
-//         <div className="login-image-container">
-
-//           <form className="form-container" onSubmit={this.submitForm}>
-
-//             <label className="input-label" htmlFor="user">
-//               User ID
-//             </label>
-//             <input
-//               className="input-class"
-//               id="user"
-//               type="text"
-//               placeholder="Enter User ID"
-//               onChange={this.changeUser}
-//             />
-//             <label className="input-label" htmlFor="pin">
-//               PIN
-//             </label>
-//             <input
-//               className="input-class"
-//               type="password"
-//               id="pin"
-//               placeholder="Enter PIN"
-//               onChange={this.changePin}
-//             />
-//             <button type="submit" className="login-button">
-//               Login
-//             </button>
-//             {showError && <p className="paragraph"> * {errorMsg}</p>}
-//           </form>
-//         </div>
-//       </div>
-//     )
-//   }
-// }
-
-// export default Login

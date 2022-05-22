@@ -1,17 +1,14 @@
-import {Link, withRouter} from 'react-router-dom'
+import {Link, useHistory} from 'react-router-dom'
 
 import Cookies from 'js-cookie'
 
 import './index.css'
 
 const Home = () => {
-  const logoutButton = props => {
-    const {history} = props
+  const history = useHistory()
+  const logoutButton = () => {
     Cookies.remove('jwt_token')
-    history.replace('/login')
-    if (Cookies.get === undefined) {
-      history.replace('/login')
-    }
+    history.replace('/ebank/login')
   }
 
   return (
@@ -22,8 +19,8 @@ const Home = () => {
           alt="website logo"
           className="logo-image"
         />
-        <Link to="/login">
-          <li>
+        <Link to="/ebank/login" style={{textDecoration: 'none'}}>
+          <li className="list-order">
             <button
               type="button"
               className="home-button"
@@ -47,4 +44,4 @@ const Home = () => {
   )
 }
 
-export default withRouter(Home)
+export default Home

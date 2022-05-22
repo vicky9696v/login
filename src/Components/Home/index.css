@@ -23,6 +23,8 @@
   border: 1px solid #ffffffff;
   background-color: transparent;
   color: #ffffffff;
+  cursor: pointer;
+  outline: none;
 }
 
 .card-container {
@@ -33,4 +35,8 @@
   align-items: center;
   color: #ffffffff;
   margin-top: 5%;
+}
+
+.list-order {
+  list-style-type: none;
 }
